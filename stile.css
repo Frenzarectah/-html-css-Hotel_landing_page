@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+.flex-container{
+    display:flex;
+    flex-direction: column;
+}
+.navtop{
+    background-color:#f5fafe;
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+}
+.navtop_txt{
+    margin-left:165px;
+    width:243px;
+    height:13px;
+    font-family:'Mulish';
+    font-style:normal;
+    font-weight: 400;
+    font-size:10px;
+    line-height:13px;
+}
+.gift_box{
+    margin-left:549px;
+    width:102px;
+    height:18px;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+}
+.gift_img{
+    width:18px;
+    height:18px;
+}
+.gift_txt{
+    margin-left:10px;
+    font-family:'Mulish';
+    font-size:10px;
+    line-height:13px;
+}
+.loyality_box{
+    margin:98px;
+    width:115px;
+    height:18px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.star_img{
+    width:18px;
+    height:18px;
+}
+.loyality_txt{
+    margin-left:10px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size:10px;
+    line-height: 13px;    
+}
+/*navbar begin */
+.navbar{
+    width:inherit;
+    height:120px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar_txt{
+    margin-left:165px;
+    width:177px;
+    height:24px;
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size:24px;
+    line-height: 24px;
+}
+.search_bar{
+    margin-left:108px;
+    display:flex;
+    flex-direction: row;
+    width: 350px;
+    height: 40px;
+}
+.find_bar{
+    border-radius:6px 0 0 6px;
+    width:285px;
+    height:40px;
+    border:0.2px solid #F5FAFE;
+    background: #F5FAFE;
+}
+.find_btn{
+    width:65px;
+    height:40px;
+}
+.cart_icon{
+    margin-left:238px;
+    width:34px;
+    height:34px;
+}
+.profile_box{
+    margin-left:53px;
+    width:150px;
+    height:40px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile_img{
+    width:40px;
+    height:40px;
+}
+.profile_name{
+    margin-left:18px;
+    width:49px;
+    height:18px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size:14px;
+}
+.arrow_icon{
+    margin-left:19px;
+    width:24px;
+    height:24px;
+}
