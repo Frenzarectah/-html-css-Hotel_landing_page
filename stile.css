@@ -2,17 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
-.mulish_400{
+.mulish{
     font-family:'Mulish';
-    font-weight: 400;
     font-style:normal;
 }
-.nunito_400{
-    font-family:'Nunito';
-    font-weight:400;
+.size--400{
+    font-weight: 400;
 }
-.nunito_600{
+.size--700{
+    font-weight:700;
+}
+.nunito{
     font-family:'Nunito';
+}
+.size--600{
+    font-weight:600;
+}
+.lucky{
+    font-family: 'Luckiest Guy';
 }
 .flex-container{
     display:flex;
@@ -77,12 +84,10 @@
     flex-direction: row;
     align-items: center;
 }
-.navbar_txt{  /*luckiest 400*/
+.navbar_txt{  
     margin-left:135px;
     width:177px;
     height:24px;
-    font-family: 'Luckiest Guy';
-    font-weight: 400;
     font-size:24px;
     line-height: 24px;
 }
@@ -142,8 +147,6 @@
     color:#ffffff;
 }
 .navbar_btm_item{  /*mulish 700*/
-    font-family: 'Mulish';
-    font-weight: 700;
     font-size:14px;
     line-height:18px;
 }
@@ -171,10 +174,8 @@
     width:48px;
     height:8px;
 }
-.hotel_name{ /*mulish 700*/
+.hotel_name{ 
     color:#C4C4C4;
-    font-family: 'Mulish';
-    font-weight: 700;
     font-size:24px;
     line-height: 30px;
 }
@@ -226,23 +227,19 @@
     width:295px;
     height:59px;
 }
-.price_box{   /*nunito 400 */
+.price_box{   
     width:86px;
     height:59px;
-    font-family:'Nunito';
     color:#ffffff;
     font-style: normal;
-    font-weight: 400;
     display:flex;
     flex-direction: column;
 }
-.call_center{  /*nunito 400*/ 
+.call_center{  
     display:flex;
     flex-direction: row;
     align-items:center;
-    font-family: 'Nunito';
     color:#ffffff;
-    font-weight:400;
     font-style:normal;
     font-size:18px;
     width:295px;
@@ -274,18 +271,15 @@
     height:213px;
     border-radius: 10px;
 }
-.cards_menu{  /*mulish 700 14px;*/
-    width:inherit;
+.cards_menu{ 
+    width:1105;
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
-    font-weight:700;
-    font-family:'Mulish';
     font-size:14px;
     color:#333333;
     margin-top: 67px;
     margin-left:135px;
-    margin-right:98px;
     height:36px;
 }
 .cards_menu a{
@@ -294,10 +288,22 @@
     border-bottom:4px red solid;
 }
 .package_summary{
-    width:inherit;
+    width:1105px;
     margin-left:135px;
-    margin-right:98px;
     margin-top:40px;
+    display:flex;
+    flex-direction: column;
     height:842px;
     border:1px red solid;
+}
+.package_line1{
+    width:240px;
+    height:30px;
+    font-weight: normal;
+    font-size:24px;
+    line-height:30px;
+}
+.package_line2{
+    height:200px;
+    border:1px yellow solid;
 }
