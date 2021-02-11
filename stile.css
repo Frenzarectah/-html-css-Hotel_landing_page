@@ -7,9 +7,17 @@
     font-weight: 400;
     font-style:normal;
 }
+.nunito_400{
+    font-family:'Nunito';
+    font-weight:400;
+}
+.nunito_600{
+    font-family:'Nunito';
+}
 .flex-container{
     display:flex;
     flex-direction: column;
+    justify-content: center;
 }
 .navtop{
     background-color:#f5fafe;
@@ -69,7 +77,7 @@
     flex-direction: row;
     align-items: center;
 }
-.navbar_txt{
+.navbar_txt{  /*luckiest 400*/
     margin-left:135px;
     width:177px;
     height:24px;
@@ -133,7 +141,7 @@
     background-color:#0A223D;
     color:#ffffff;
 }
-.navbar_btm_item{
+.navbar_btm_item{  /*mulish 700*/
     font-family: 'Mulish';
     font-weight: 700;
     font-size:14px;
@@ -163,7 +171,7 @@
     width:48px;
     height:8px;
 }
-.hotel_name{
+.hotel_name{ /*mulish 700*/
     color:#C4C4C4;
     font-family: 'Mulish';
     font-weight: 700;
@@ -204,6 +212,7 @@
     margin-left:25px;
     display:flex;
     flex-direction: column;
+    align-items:center;
     width:350px;
     height:210px;
     background-color: #0a232d;
@@ -212,23 +221,22 @@
 .booking_line1{
     display:flex;
     flex-direction: row;
+    margin-top:29px;
+    color:#ffffff;
     width:295px;
     height:59px;
 }
-.price_box{
+.price_box{   /*nunito 400 */
     width:86px;
-    border:1px red solid;
     height:59px;
     font-family:'Nunito';
     color:#ffffff;
     font-style: normal;
     font-weight: 400;
-    margin:29px 0 0 26px;
     display:flex;
     flex-direction: column;
 }
-.call_center{
-    border:1px yellow solid;
+.call_center{  /*nunito 400*/ 
     display:flex;
     flex-direction: row;
     align-items:center;
@@ -239,18 +247,57 @@
     font-size:18px;
     width:295px;
     height:25px;
-    margin:33px 29px 0 26px;  
+    margin-top:9px;  
 }
 .person_room{
     width:80px;
     height:40px;
-    margin-top:29px;
-    margin-right:26px;
-    border:1px solid white;
+    display:flex;
+    flex-direction: column;
+    margin-left:129px;
+}
+.view_btn{
+    width:295;
+    display:flex;
+    height:45px;
+    margin-top:18px;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    border-radius:5px;
+    background-color:#EC1F46;
 }
 .maps{
     margin-top:25px;
+    margin-left:25px;
     width:347px;
     height:213px;
     border-radius: 10px;
+}
+.cards_menu{  /*mulish 700 14px;*/
+    width:inherit;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight:700;
+    font-family:'Mulish';
+    font-size:14px;
+    color:#333333;
+    margin-top: 67px;
+    margin-left:135px;
+    margin-right:98px;
+    height:36px;
+}
+.cards_menu a{
+    text-decoration:none;
+    color:#333333;
+    border-bottom:4px red solid;
+}
+.package_summary{
+    width:inherit;
+    margin-left:135px;
+    margin-right:98px;
+    margin-top:40px;
+    height:842px;
+    border:1px red solid;
 }
