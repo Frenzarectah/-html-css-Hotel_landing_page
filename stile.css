@@ -31,9 +31,11 @@
     border-radius:5px;
 }
 .flex-container{
+    width:100%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    border:1px violet solid;
 }
 .navtop{
     background-color:#f5fafe;
@@ -87,17 +89,17 @@
 }
 /*navbar begin */
 .navbar{
-    width:inherit;
+    width:1105px;
     height:120px;
     display:flex;
     flex-direction: row;
     align-items: center;
 }
 .navbar_txt{  
-    margin-left:135px;
     width:177px;
     height:24px;
-    font-size:24px;
+    font-style:normal;
+    font-size:23px;
     line-height: 24px;
 }
 .search_bar{
@@ -160,22 +162,22 @@
     line-height:18px;
 }
 .breadcumb{  
-    width:inherit;
+    width:1105px;
     height:50px;
     display:flex;
     align-items:center;
-    margin-left:135px;
+    /*margin-left:135px;*/
     font-size:10px;
     line-height:12px;
 }
 .hotel_bar{
-    width:inherit;
+    width:1105px;
     height:100px;
     display:flex;
     align-items: center;
 }
 .hotel_name_box{
-    margin-left:135px;
+    /*margin-left:135px;*/
     display:flex;
     flex-direction: column;
 }
@@ -206,11 +208,11 @@
 .img_container{
     display:flex;
     flex-direction:row;
-    width:100%;
+    width:1105px;
     height:450px;
 }
 .beach{
-    margin-left:135px;
+    /*margin-left:135px;*/
     width:728px;
     height:450px;
 }
@@ -263,7 +265,7 @@
     margin-left:129px;
 }
 .view_btn{
-    width:295;
+    width:295px; /**/
     display:flex;
     height:45px;
     margin-top:18px;
@@ -288,7 +290,6 @@
     font-size:14px;
     color:#333333;
     margin-top: 67px;
-    margin-left:135px;
     height:36px;
 }
 .cards_menu a{
@@ -298,12 +299,10 @@
 }
 .package_summary{
     width:1105px;
-    margin-left:135px;
     margin-top:40px;
     display:flex;
     flex-direction: column;
     height:842px;
-    /*border:1px red solid;*/
 }
 .package_line1{
     width:240px;
@@ -329,5 +328,9 @@
 .offer{
     width:538px;
     height:inherit;
-    /*border:1px black solid;*/
+}
+.prova{
+    width:550px;
+    height:80px;
+    border:1px solid black;
 }
