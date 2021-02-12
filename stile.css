@@ -21,6 +21,15 @@
 .lucky{
     font-family: 'Luckiest Guy';
 }
+.title{
+    background-color:#0A223D;
+    color:#ffffff;
+    display:flex;
+    align-items: center;
+    font-size:14px;
+    height:50px;
+    border-radius:5px;
+}
 .flex-container{
     display:flex;
     flex-direction: column;
@@ -294,7 +303,7 @@
     display:flex;
     flex-direction: column;
     height:842px;
-    border:1px red solid;
+    /*border:1px red solid;*/
 }
 .package_line1{
     width:240px;
@@ -304,6 +313,21 @@
     line-height:30px;
 }
 .package_line2{
+    margin-top:29px;
     height:200px;
-    border:1px yellow solid;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /*border:1px yellow solid;*/
+}
+.highlights{
+    width:538px;
+    height:inherit;
+    /*border:1px black solid;*/
+}
+
+.offer{
+    width:538px;
+    height:inherit;
+    /*border:1px black solid;*/
 }
