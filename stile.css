@@ -34,8 +34,8 @@
     width:100%;
     display:flex;
     flex-direction: column;
+    background-color: #F5FAFE;
     align-items: center;
-    border:1px violet solid;
 }
 .navtop{
     background-color:#f5fafe;
@@ -88,6 +88,12 @@
     line-height: 13px;    
 }
 /*navbar begin */
+.navbar_container{
+    width:100%;
+    background-color: #ffffff;
+    display:flex;
+    justify-content:center;
+}
 .navbar{
     width:1105px;
     height:120px;
@@ -322,15 +328,13 @@
 .highlights{
     width:538px;
     height:inherit;
-    /*border:1px black solid;*/
+}
+.highlights_box{
+    width:479;
+    height:96px;
 }
 
 .offer{
     width:538px;
     height:inherit;
-}
-.prova{
-    width:550px;
-    height:80px;
-    border:1px solid black;
 }
