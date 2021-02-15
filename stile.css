@@ -21,6 +21,9 @@
 .lucky{
     font-family: 'Luckiest Guy';
 }
+.mid{
+    width:538px;
+}
 .title{
     background-color:#0A223D;
     color:#ffffff;
@@ -289,7 +292,7 @@
     border-radius: 10px;
 }
 .cards_menu{ 
-    width:1105;
+    width:1105px;
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -309,32 +312,51 @@
     display:flex;
     flex-direction: column;
     height:842px;
+    border:1px red solid;
 }
-.package_line1{
-    width:240px;
+.package_title{
+    width:250px;
     height:30px;
-    font-weight: normal;
+    font-weight: bold;
     font-size:24px;
     line-height:30px;
 }
-.package_line2{
-    margin-top:29px;
-    height:200px;
+.list_containers{
     display:flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
-    /*border:1px yellow solid;*/
-}
-.highlights{
-    width:538px;
-    height:inherit;
 }
 .highlights_box{
-    width:479;
-    height:96px;
-}
-
-.offer{
+    display:flex;
+    flex-direction: column;
     width:538px;
-    height:inherit;
+    height:200px;
+    border:1px black solid;
+    background-color: #ffffff;
+}
+.high_list{
+    width:479px;
+    height:96px;
+    margin:27px 35px 24px 27px;
+    border:1px black solid;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    font-size:12px;
+
+}
+.high_list_item{
+    border:1px black solid;
+    width:210px;
+    height:25px;
+}
+.offer_box{
+    width:538px;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+    border:1px red solid;
+    background-color: #ffffff;
 }
