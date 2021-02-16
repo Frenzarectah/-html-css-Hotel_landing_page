@@ -376,20 +376,12 @@
     background-color:#ffffff;
     border-radius:5px;
 }
-.under_detail_box{
+.detail_box_line{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.inclusion_box{
+.box{
     width:258px;
     height:239px;
-}
-.complimentary_box{
-    width:284px;
-    height:238px;
-}
-.complimentary_water_box{
-    width:238px;
-    height:233px;
 }
