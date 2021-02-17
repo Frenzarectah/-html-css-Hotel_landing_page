@@ -327,6 +327,7 @@
 .list_containers{
     display:flex;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .highlights_box{
@@ -337,7 +338,7 @@
     background-color: #ffffff;
     border-radius:5px;
 }
-.high_list{
+.list{
     width:479px;
     height:96px;
     margin:27px 35px 24px 27px;
@@ -349,8 +350,12 @@
     font-size:12px;
 
 }
-.high_list_item{
-    width:200;
+.list_item_m{
+    width:200px;
+    height:30px;
+}
+.list_item_l{
+    width:270px;
     height:30px;
 }
 .offer_box{
@@ -383,5 +388,8 @@
 }
 .box{
     width:258px;
+    display:flex;
+    flex-direction: column;
     height:239px;
+    border:1px black solid;
 }
