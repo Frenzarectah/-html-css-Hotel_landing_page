@@ -6,6 +6,33 @@
     font-family:'Mulish';
     font-style:normal;
 }
+.rounded{
+    border-radius:5px;
+}
+.riga{
+    display:flex;
+    flex-direction: row;
+}
+.colonna{
+    display:flex;
+    flex-direction:column;
+}
+.x_centered{
+    display:flex;
+    justify-content:center;
+}
+.y_centered{
+    display:flex;
+    align-items: center;
+}
+.spaced_rnd{
+    display:flex;
+    justify-content:space-around;
+}
+.spaced_btw{
+    display:flex;
+    justify-content:space-between;
+}
 .size--400{
     font-weight: 400;
 }
@@ -311,35 +338,27 @@
 }
 .package_summary{
     width:1105px;
+    height:842px;
     margin-top:40px;
     display:flex;
     flex-direction: column;
-    height:842px;
-    border:1px red solid;
+    border:1px violet solid;
 }
-.package_title{
-    width:250px;
-    height:30px;
-    font-weight: bold;
-    font-size:24px;
-    line-height:30px;
-}
-.list_containers{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-.highlights_box{
-    display:flex;
-    flex-direction: column;
+.box{
     width:538px;
     height:200px;
     background-color: #ffffff;
-    border-radius:5px;
+}
+.taitol{
+    width:100%;
+    height:50px;
+    background-color:#0A223D;
+    color:#ffffff;
+    font-size:13px;
+    font-weight: bold;
 }
 .list{
-    width:479px;
+    width:220px;
     height:96px;
     margin:27px 35px 24px 0px;
     list-style-image:url('circle.svg');
@@ -351,43 +370,3 @@
     font-size:12px;
 
 }
-.box{
-    width:265px;
-    display:flex;
-    flex-direction: column;
-    height:239px;
-    /*border:1px black dotted;*/
-}
-.list_item_m{
-    width:200px;
-    height:30px;
-}
-.offer_box{
-    width:538px;
-    height:200px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    border-radius:5px;
-}
-.item_container{
-    display:flex;
-    flex-direction: column;
-    height:103px;
-    justify-content: space-around;
-}
-.details_box{
-    margin-top:33px;
-    width:1104px;
-    height:550px;
-    align-items:center;
-    background-color:#ffffff;
-    border-radius:5px;
-}
-.detail_box_line{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
