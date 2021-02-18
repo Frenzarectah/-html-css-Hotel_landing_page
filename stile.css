@@ -341,21 +341,25 @@
 .list{
     width:479px;
     height:96px;
-    margin:27px 35px 24px 27px;
+    margin:27px 35px 24px 0px;
     list-style-image:url('circle.svg');
     display:flex;
+    border:1px solid yellow;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     font-size:12px;
 
 }
+.box{
+    width:265px;
+    display:flex;
+    flex-direction: column;
+    height:239px;
+    /*border:1px black dotted;*/
+}
 .list_item_m{
     width:200px;
-    height:30px;
-}
-.list_item_l{
-    width:270px;
     height:30px;
 }
 .offer_box{
@@ -386,10 +390,4 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.box{
-    width:258px;
-    display:flex;
-    flex-direction: column;
-    height:239px;
-    border:1px black solid;
-}
+
