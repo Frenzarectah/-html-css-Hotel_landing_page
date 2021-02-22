@@ -33,17 +33,44 @@
     display:flex;
     justify-content:space-between;
 }
-.size--400{
+.weight--400{
     font-weight: 400;
 }
-.size--700{
+.weight--700{
     font-weight:700;
 }
 .nunito{
     font-family:'Nunito';
 }
-.size--600{
+.weight--600{
     font-weight:600;
+}
+.dpblue{
+    background-color: #0A223D;
+}
+.bkn_red{
+    background-color:#EC1F46;
+}
+.white{
+    color:#ffffff;
+}
+.size--36{
+    font-size:36px;
+}
+.size--14{
+    font-size:14px;
+}
+.size--18{
+    font-size:18px;
+}
+.size--10{
+    font-size:10px;
+}
+.size--24{
+    font-size:24px;
+}
+.size--12{
+    font-size:12px;
 }
 .lucky{
     font-family: 'Luckiest Guy';
@@ -367,5 +394,9 @@
     flex-direction: column;
     justify-content: space-between;
     font-size:12px;
-
+}
+.tripAdv{
+    width:366px;
+    height:500px;
+    background-image: url('rectangle.svg');
 }
