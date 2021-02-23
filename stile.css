@@ -398,5 +398,25 @@
 .tripAdv{
     width:366px;
     height:500px;
-    background-image: url('rectangle.svg');
+    background-image: url('image.png');
+}
+.beach_mini{
+    width:350px;
+    height:250px;
+    background-image:url('minibeach.png');
+}
+.white_palace{
+    width:350px;
+    height:250px;
+    background-image:url('white_palace.png');
+}
+.fivestar{
+    width:350px;
+    height:250px;
+    background-image: url('fivestar.png');
+}
+.luxury{
+    width:350px;
+    height:250px;
+    background-image:url('luxury.png');
 }
