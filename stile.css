@@ -33,6 +33,9 @@
     display:flex;
     justify-content:space-between;
 }
+.align-left{
+    justify-content:left;
+}
 .weight--400{
     font-weight: 400;
 }
@@ -56,6 +59,12 @@
 }
 .white{
     color:#ffffff;
+}
+.red{
+    color:#EC1F46;
+}
+.size--64{
+    font-size:64px;
 }
 .size--36{
     font-size:36px;
@@ -392,11 +401,16 @@
     margin:22px 35px 24px 0px;
     list-style-image:url('circle.svg');
     display:flex;
-    border:1px solid yellow;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     font-size:12px;
+}
+.lista{
+    list-style: none;
+}
+.lista>li{
+    margin:5px 0 5px 0;
 }
 .tripAdv{
     width:366px;
@@ -427,5 +441,20 @@
     width:100%;
     height:200px;
     background-image: url('backgrnd.png');
-    background-color: rgba(10, 34, 61, 0.8);
+}
+.news_card{
+    width:255px;
+    height:255px;
+}
+.square1{
+    background-image: url('square_1.png');
+}
+.square2{
+    background-image:url('square_2.png');
+}
+.square3{
+    background-image:url('square_3.png');
+}
+.square4{
+    background-image:url('square_4.png');
 }
