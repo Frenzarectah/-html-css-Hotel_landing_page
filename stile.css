@@ -410,7 +410,7 @@
     list-style: none;
 }
 .lista>li{
-    margin:5px 0 5px 0;
+    margin:5px;  /*5px 0 5px 0;*/
 }
 .tripAdv{
     width:366px;
