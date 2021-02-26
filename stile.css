@@ -2,13 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+/*stili caratteri*/
 .mulish{
     font-family:'Mulish';
     font-style:normal;
 }
-.rounded{
-    border-radius:5px;
+.nunito{
+    font-family:'Nunito';
 }
+.lucky{
+    font-family: 'Luckiest Guy';
+}
+.size--64{
+    font-size:64px;
+}
+.size--36{
+    font-size:36px;
+}
+.size--14{
+    font-size:14px;
+}
+.size--18{
+    font-size:18px;
+}
+.size--10{
+    font-size:10px;
+}
+.size--24{
+    font-size:24px;
+}
+.size--12{
+    font-size:12px;
+}
+.weight--400{
+    font-weight: 400;
+}
+.weight--700{
+    font-weight:700;
+}
+.weight--600{
+    font-weight:600;
+}
+/*flexbox options*/
 .riga{
     display:flex;
     flex-direction: row;
@@ -36,17 +72,9 @@
 .align-left{
     justify-content:left;
 }
-.weight--400{
-    font-weight: 400;
-}
-.weight--700{
-    font-weight:700;
-}
-.nunito{
-    font-family:'Nunito';
-}
-.weight--600{
-    font-weight:600;
+
+.rounded{
+    border-radius:5px;
 }
 .bg_blue{
     background-color: #0A223D;
@@ -57,35 +85,17 @@
 .bg_white{
     background-color:#ffffff;
 }
+.bg_liteblue{
+    background-color:#f5fafe;
+}
 .white{
     color:#ffffff;
 }
 .red{
     color:#EC1F46;
 }
-.size--64{
-    font-size:64px;
-}
-.size--36{
-    font-size:36px;
-}
-.size--14{
-    font-size:14px;
-}
-.size--18{
-    font-size:18px;
-}
-.size--10{
-    font-size:10px;
-}
-.size--24{
-    font-size:24px;
-}
-.size--12{
-    font-size:12px;
-}
-.lucky{
-    font-family: 'Luckiest Guy';
+.grey{
+    color:#333333;
 }
 .mid{
     width:538px;
@@ -93,7 +103,13 @@
 .long{
     width:1104px;
 }
-.title{
+.fullpage{
+    width:100%;
+}
+.midpage{
+    width:1105px;
+}
+/*.title{
     background-color:#0A223D;
     color:#ffffff;
     display:flex;
@@ -102,13 +118,6 @@
     height:50px;
     border-radius:5px;
 }
-.flex-container{
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    background-color: #F5FAFE;
-    align-items: center;
-}
 .navtop{
     background-color:#f5fafe;
     width:100%;
@@ -116,21 +125,17 @@
     display:flex;
     align-items:center;
     flex-direction: row;
-}
+}*/
 .navtop_txt{     
     margin-left:135px;
     width:243px;
     height:13px;
-    font-size:10px;
     line-height:13px;
 }
 .gift_box{
     margin-left:549px;
     width:102px;
     height:18px;
-    display:flex;
-    align-items:center;
-    flex-direction:row;
 }
 .gift_img{
     width:18px;
@@ -138,17 +143,12 @@
 }
 .gift_txt{
     margin-left:10px;
-    font-family:'Mulish';
-    font-size:10px;
     line-height:13px;
 }
 .loyality_box{
     margin:98px;
     width:115px;
     height:18px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
 }
 .star_img{
     width:18px;
@@ -160,19 +160,6 @@
     line-height: 13px;    
 }
 /*navbar begin */
-.navbar_container{
-    width:100%;
-    background-color: #ffffff;
-    display:flex;
-    justify-content:center;
-}
-.navbar{
-    width:1105px;
-    height:120px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-}
 .navbar_txt{  
     width:177px;
     height:24px;
@@ -182,17 +169,13 @@
 }
 .search_bar{
     margin-left:108px;
-    display:flex;
-    flex-direction: row;
     width: 350px;
     height: 40px;
 }
 .find_bar{
-    border-radius:6px 0 0 6px;
     width:285px;
     height:40px;
-    border:0.2px solid #F5FAFE;
-    background: #F5FAFE;
+    border:none;
 }
 .find_btn{
     width:65px;
@@ -207,9 +190,6 @@
     margin-left:53px;
     width:150px;
     height:40px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
 }
 .profile_img{
     width:40px;
@@ -219,25 +199,11 @@
     margin-left:18px;
     width:49px;
     height:18px;
-    font-size:14px;
 }
 .arrow_icon{
     margin-left:19px;
     width:24px;
     height:24px;
-}
-.navbar_btm{
-    width:inherit;
-    height:80px;
-    display:flex;
-    align-items:center;
-    justify-content: space-around;
-    background-color:#0A223D;
-    color:#ffffff;
-}
-.navbar_btm_item{  /*mulish 700*/
-    font-size:14px;
-    line-height:18px;
 }
 .breadcumb{  
     width:1105px;
@@ -254,19 +220,9 @@
     display:flex;
     align-items: center;
 }
-.hotel_name_box{
-    /*margin-left:135px;*/
-    display:flex;
-    flex-direction: column;
-}
 .starred{
     width:48px;
     height:8px;
-}
-.hotel_name{ 
-    color:#C4C4C4;
-    font-size:24px;
-    line-height: 30px;
 }
 .hotel_subtitle{  
     width:389px;
@@ -283,12 +239,6 @@
     height:45px;
     margin-left: 625px;
 }
-.img_container{
-    display:flex;
-    flex-direction:row;
-    width:1105px;
-    height:450px;
-}
 .beach{
     /*margin-left:135px;*/
     width:728px;
@@ -300,19 +250,12 @@
 }
 .booking{
     margin-left:25px;
-    display:flex;
-    flex-direction: column;
-    align-items:center;
     width:350px;
     height:210px;
-    background-color: #0a232d;
     border-radius:10px;
 }
 .booking_line1{
-    display:flex;
-    flex-direction: row;
     margin-top:29px;
-    color:#ffffff;
     width:295px;
     height:59px;
 }
