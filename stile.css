@@ -35,6 +35,9 @@
 .size--12{
     font-size:12px;
 }
+.size--13{
+    font-size:13px;
+}
 .weight--400{
     font-weight: 400;
 }
@@ -109,23 +112,12 @@
 .midpage{
     width:1105px;
 }
-/*.title{
-    background-color:#0A223D;
-    color:#ffffff;
-    display:flex;
-    align-items: center;
-    font-size:14px;
-    height:50px;
-    border-radius:5px;
+.breakline{
+    border:none;
+    border-top:1px dotted lightgray;
+    height:1px;
+
 }
-.navtop{
-    background-color:#f5fafe;
-    width:100%;
-    height:60px;
-    display:flex;
-    align-items:center;
-    flex-direction: row;
-}*/
 .navtop_txt{     
     margin-left:135px;
     width:243px;
@@ -319,12 +311,8 @@
     border-bottom:4px red solid;
 }
 .package_summary{
-    width:1105px;
     height:842px;
     margin-top:40px;
-    display:flex;
-    flex-direction: column;
-    border:1px violet solid;
 }
 .box{
     width:538px;
