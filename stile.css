@@ -197,11 +197,6 @@
 .flash_btn{
     margin-left:14px;
 }
-.rate_img{
-    width:65px;
-    height:45px;
-    margin-left: 625px;
-}
 .beach{
     width:728px;
     height:450px;
@@ -219,10 +214,8 @@
 .price_box{   
     width:86px;
     height:59px;
-    font-style: normal;
 }
 .call_center{  
-    font-style:normal;
     width:295px;
     height:25px;
     margin-top:9px;  
@@ -244,19 +237,13 @@
     height:213px;
 }
 .cards_menu{ 
-    width:1105px;
-    display:flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    font-size:14px;
-    color:#333333;
     margin-top: 67px;
     height:36px;
 }
 .cards_menu a{
     text-decoration:none;
     color:#333333;
-    border-bottom:4px red solid;
+    border-bottom:3px red solid;
 }
 .package_summary{
     height:842px;
@@ -265,31 +252,23 @@
 .box{
     width:538px;
     height:200px;
-    background-color: #ffffff;
 }
 .taitol{
-    width:100%;
     height:50px;
-    background-color:#0A223D;
-    color:#ffffff;
-    font-size:13px;
     font-weight: bold;
 }
 .list{
     width:220px;
     margin:22px 35px 24px 0px;
     list-style-image:url('circle.svg');
-    display:flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
     font-size:12px;
 }
 .lista{
     list-style: none;
 }
 .lista>li{
-    margin:5px;  /*5px 0 5px 0;*/
+    margin:5px; 
 }
 .tripAdv{
     width:366px;
