@@ -32,6 +32,9 @@
 .size--24{
     font-size:24px;
 }
+.size--23{
+    font-size:23px;
+}
 .size--12{
     font-size:12px;
 }
@@ -111,6 +114,9 @@
 .midpage{
     width:1105px;
 }
+.noborder{
+    border:none;
+}
 .breakline{
     border:none;
     border-top:1px dotted lightgray;
@@ -121,6 +127,10 @@
 .navtop_txt{     
     width:500px;
     height:13px;
+}
+.social_icon{
+    width:20px;
+    height:20px;
 }
 .gift_img{
     width:18px;
@@ -136,16 +146,11 @@
 }
 .loyality_txt{  
     margin-left:10px;
-    font-size:10px;
     line-height: 13px;    
 }
-/*navbar begin */
 .navbar_txt{  
     width:177px;
     height:24px;
-    font-style:normal;
-    font-size:23px;
-    line-height: 24px;
 }
 .search_bar{
     margin-left:108px;
@@ -155,7 +160,6 @@
 .find_bar{
     width:285px;
     height:40px;
-    border:none;
 }
 .find_btn{
     width:65px;
@@ -313,8 +317,4 @@
 }
 .square4{
     background-image:url('square_4.png');
-}
-.social_icon{
-    width:20px;
-    height:20px;
 }
