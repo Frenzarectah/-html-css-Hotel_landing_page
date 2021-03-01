@@ -1,35 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
-.flex-container{
-    display:flex;
-    flex-direction: column;
-}
-.navtop{
-    background-color:#f5fafe;
-    width:100%;
-    height:60px;
-    display:flex;
-    align-items:center;
-    flex-direction: row;
-}
-.navtop_txt{
-    margin-left:165px;
-    width:243px;
-    height:13px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+/*stili caratteri*/
+.mulish{
     font-family:'Mulish';
     font-style:normal;
-    font-weight: 400;
-    font-size:10px;
-    line-height:13px;
 }
-.gift_box{
-    margin-left:549px;
-    width:102px;
-    height:18px;
+.nunito{
+    font-family:'Nunito';
+}
+.lucky{
+    font-family: 'Luckiest Guy';
+}
+.size--64{
+    font-size:64px;
+}
+.size--36{
+    font-size:36px;
+}
+.size--14{
+    font-size:14px;
+}
+.size--18{
+    font-size:18px;
+}
+.size--10{
+    font-size:10px;
+}
+.size--24{
+    font-size:24px;
+}
+.size--23{
+    font-size:23px;
+}
+.size--12{
+    font-size:12px;
+}
+.size--13{
+    font-size:13px;
+}
+.weight--400{
+    font-weight: 400;
+}
+.weight--700{
+    font-weight:700;
+}
+.weight--600{
+    font-weight:600;
+}
+/*flexbox options*/
+.riga{
     display:flex;
-    align-items:center;
-    flex-direction:row;
+    flex-direction: row;
+}
+.colonna{
+    display:flex;
+    flex-direction:column;
+}
+.x_centered{
+    display:flex;
+    justify-content:center;
+}
+.y_centered{
+    display:flex;
+    align-items: center;
+}
+.spaced_rnd{
+    display:flex;
+    justify-content:space-around;
+}
+.spaced_btw{
+    display:flex;
+    justify-content:space-between;
+}
+.align-left{
+    justify-content:left;
+}
+/*colori & background */
+.white{
+    color:#ffffff;
+}
+.red{
+    color:#EC1F46;
+}
+.grey{
+    color:#333333;
+}
+.bg_blue{
+    background-color: #0A223D;
+}
+.bg_red{
+    background-color:#EC1F46;
+}
+.bg_white{
+    background-color:#ffffff;
+}
+.bg_liteblue{
+    background-color:#f5fafe;
+}
+
+/*others */
+.rounded-10{
+    border-radius:10px;
+}
+.rounded{
+    border-radius:5px;
+}
+.fullpage{
+    width:100%;
+}
+.midpage{
+    width:1105px;
+}
+.noborder{
+    border:none;
+}
+.breakline{
+    border:none;
+    border-top:1px dotted lightgray;
+    height:1px;
+
+}
+/*utility classes*/
+.navtop_txt{     
+    width:500px;
+    height:13px;
+}
+.social_icon{
+    width:20px;
+    height:20px;
 }
 .gift_img{
     width:18px;
@@ -37,59 +138,28 @@
 }
 .gift_txt{
     margin-left:10px;
-    font-family:'Mulish';
-    font-size:10px;
     line-height:13px;
-}
-.loyality_box{
-    margin:98px;
-    width:115px;
-    height:18px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
 }
 .star_img{
     width:18px;
     height:18px;
 }
-.loyality_txt{
+.loyality_txt{  
     margin-left:10px;
-    font-family: 'Mulish';
-    font-weight: 400;
-    font-size:10px;
     line-height: 13px;    
 }
-/*navbar begin */
-.navbar{
-    width:inherit;
-    height:120px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-}
-.navbar_txt{
-    margin-left:165px;
+.navbar_txt{  
     width:177px;
     height:24px;
-    font-family: 'Luckiest Guy';
-    font-weight: 400;
-    font-size:24px;
-    line-height: 24px;
 }
 .search_bar{
     margin-left:108px;
-    display:flex;
-    flex-direction: row;
     width: 350px;
     height: 40px;
 }
 .find_bar{
-    border-radius:6px 0 0 6px;
     width:285px;
     height:40px;
-    border:0.2px solid #F5FAFE;
-    background: #F5FAFE;
 }
 .find_btn{
     width:65px;
@@ -104,24 +174,147 @@
     margin-left:53px;
     width:150px;
     height:40px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
 }
 .profile_img{
     width:40px;
     height:40px;
 }
-.profile_name{
+.profile_name{   
     margin-left:18px;
     width:49px;
     height:18px;
-    font-family: 'Mulish';
-    font-weight: 400;
-    font-size:14px;
 }
 .arrow_icon{
     margin-left:19px;
     width:24px;
     height:24px;
+}
+.breadcumb{  
+    height:50px;
+}
+.starred{
+    width:48px;
+    height:8px;
+}
+.flash_btn{
+    margin-left:14px;
+}
+.beach{
+    width:728px;
+    height:450px;
+}
+.booking{
+    margin-left:25px;
+    width:350px;
+    height:210px;
+}
+.booking_line1{
+    margin-top:29px;
+    width:295px;
+    height:59px;
+}
+.price_box{   
+    width:86px;
+    height:59px;
+}
+.call_center{  
+    width:295px;
+    height:25px;
+    margin-top:9px;  
+}
+.person_room{
+    width:80px;
+    height:40px;
+    margin-left:129px;
+}
+.view_btn{
+    width:295px;
+    height:45px;
+    margin-top:18px;
+}
+.maps{
+    margin-top:25px;
+    margin-left:25px;
+    width:347px;
+    height:213px;
+}
+.cards_menu{ 
+    margin-top: 67px;
+    height:36px;
+}
+.cards_menu a{
+    text-decoration:none;
+    color:#333333;
+    border-bottom:3px red solid;
+}
+.package_summary{
+    height:842px;
+    margin-top:40px;
+}
+.box{
+    width:538px;
+    height:200px;
+}
+.taitol{
+    height:50px;
+    font-weight: bold;
+}
+.list{
+    width:220px;
+    margin:22px 35px 24px 0px;
+    list-style-image:url('circle.svg');
+    flex-wrap: wrap;
+    font-size:12px;
+}
+.lista{
+    list-style: none;
+}
+.lista>li{
+    margin:5px; 
+}
+.tripAdv{
+    width:366px;
+    height:500px;
+    background-image: url('image.png');
+}
+.beach_mini{
+    width:350px;
+    height:250px;
+    background-image:url('minibeach.png');
+}
+.white_palace{
+    width:350px;
+    height:250px;
+    background-image:url('white_palace.png');
+}
+.fivestar{
+    width:350px;
+    height:250px;
+    background-image: url('fivestar.png');
+}
+.luxury{
+    width:350px;
+    height:250px;
+    background-image:url('luxury.png');
+}
+.newsletter{
+    width:100%;
+    height:200px;
+    background-image: url('backgrnd.png');
+}
+.news_card{
+    width:255px;
+    height:255px;
+}
+.square1{
+    background-image: url('square_1.png');
+}
+.square2{
+    background-image:url('square_2.png');
+}
+.square3{
+    background-image:url('square_3.png');
+}
+.square4{
+    background-image:url('square_4.png');
 }
