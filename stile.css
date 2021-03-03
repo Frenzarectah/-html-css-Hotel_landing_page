@@ -1,83 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('css/textstyle.css'); /* external file with font and text styling*/
+@import url('css/flex-utility.css'); /*external file with flexbox utility */
 
-/*stili caratteri*/
-.mulish{
-    font-family:'Mulish';
-    font-style:normal;
-}
-.nunito{
-    font-family:'Nunito';
-}
-.lucky{
-    font-family: 'Luckiest Guy';
-}
-.size--64{
-    font-size:64px;
-}
-.size--36{
-    font-size:36px;
-}
-.size--14{
-    font-size:14px;
-}
-.size--18{
-    font-size:18px;
-}
-.size--10{
-    font-size:10px;
-}
-.size--24{
-    font-size:24px;
-}
-.size--23{
-    font-size:23px;
-}
-.size--12{
-    font-size:12px;
-}
-.size--13{
-    font-size:13px;
-}
-.weight--400{
-    font-weight: 400;
-}
-.weight--700{
-    font-weight:700;
-}
-.weight--600{
-    font-weight:600;
-}
-/*flexbox options*/
-.riga{
-    display:flex;
-    flex-direction: row;
-}
-.colonna{
-    display:flex;
-    flex-direction:column;
-}
-.x_centered{
-    display:flex;
-    justify-content:center;
-}
-.y_centered{
-    display:flex;
-    align-items: center;
-}
-.spaced_rnd{
-    display:flex;
-    justify-content:space-around;
-}
-.spaced_btw{
-    display:flex;
-    justify-content:space-between;
-}
-.align-left{
-    justify-content:left;
-}
+
 /*colori & background */
 .white{
     color:#ffffff;
@@ -262,7 +186,7 @@
 .list{
     width:220px;
     margin:22px 35px 24px 0px;
-    list-style-image:url('circle.svg');
+    list-style-image:url('images/circle.svg');
     flex-wrap: wrap;
     font-size:12px;
 }
@@ -275,46 +199,46 @@
 .tripAdv{
     width:366px;
     height:500px;
-    background-image: url('image.png');
+    background-image: url('images/image.png');
 }
 .beach_mini{
     width:350px;
     height:250px;
-    background-image:url('minibeach.png');
+    background-image:url('images/minibeach.png');
 }
 .white_palace{
     width:350px;
     height:250px;
-    background-image:url('white_palace.png');
+    background-image:url('images/white_palace.png');
 }
 .fivestar{
     width:350px;
     height:250px;
-    background-image: url('fivestar.png');
+    background-image: url('images/fivestar.png');
 }
 .luxury{
     width:350px;
     height:250px;
-    background-image:url('luxury.png');
+    background-image:url('images/luxury.png');
 }
 .newsletter{
     width:100%;
     height:200px;
-    background-image: url('backgrnd.png');
+    background-image: url('images/backgrnd.png');
 }
 .news_card{
     width:255px;
     height:255px;
 }
 .square1{
-    background-image: url('square_1.png');
+    background-image: url('images/square_1.png');
 }
 .square2{
-    background-image:url('square_2.png');
+    background-image:url('images/square_2.png');
 }
 .square3{
-    background-image:url('square_3.png');
+    background-image:url('images/square_3.png');
 }
 .square4{
-    background-image:url('square_4.png');
+    background-image:url('images/square_4.png');
 }
